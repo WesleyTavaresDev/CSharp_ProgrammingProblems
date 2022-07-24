@@ -6,14 +6,14 @@ class Shape
     {
         Console.WriteLine("Please enter a number: ");
 
-        int number  = int.Parse(Console.ReadLine());
-
-        for(int i = 0; i < height; i++)
+        if(int.TryParse(Console.ReadLine(), out int inputNumber))
         {
-            for(int j = 0; j < width; j++)
-                Console.Write(number);
-                    
-            Console.Write('\n');
+            for(int i = 0; i < height; i++)
+            {   
+                for(int j = 0; j < width; j++)
+                    Console.Write(inputNumber); 
+                Console.Write('\n');
+            }
         }
     }
 }
