@@ -1,7 +1,10 @@
-class Rectangle: Shape
+namespace Geometry
 {
-    public void DrawRectangle()
+   class Rectangle: Shape
     {
-        DrawShape(FillNumber(), 3, 5);
-    }    
+        public void DrawRectangle()
+        {
+            DrawShape(FillNumber(), 3, 5);
+        }    
+    }
 }

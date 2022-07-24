@@ -1,17 +1,20 @@
-public class Geometry
+namespace Geometry
 {
-    static void Main()
+    public class Geometry
     {
-        Console.WriteLine("----- Square -----");
-        Square square = new Square();
-        square.DrawSquare();
+        static void Main()
+        {
+            Console.WriteLine("----- Square -----");
+            Square square = new Square();
+            square.DrawSquare();
 
-        Console.WriteLine("----- Rectangle -----");
-        Rectangle rectangle = new Rectangle();
-        rectangle.DrawRectangle();
+            Console.WriteLine("----- Rectangle -----");
+            Rectangle rectangle = new Rectangle();
+            rectangle.DrawRectangle();
 
-        Console.WriteLine("----- Triangle -----");
-        Triangle triangle = new Triangle();
-        triangle.DrawTriangle();
+            Console.WriteLine("----- Triangle -----");
+            Triangle triangle = new Triangle();
+            triangle.DrawTriangle();
+        }
     }
 }
