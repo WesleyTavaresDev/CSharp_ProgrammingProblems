@@ -2,6 +2,6 @@ class Rectangle: Shape
 {
     public void DrawRectangle()
     {
-        DrawShape(3, 5);
+        DrawShape(FillNumber(), 3, 5);
     }    
 }

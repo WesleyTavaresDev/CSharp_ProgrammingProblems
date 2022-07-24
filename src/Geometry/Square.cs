@@ -5,6 +5,6 @@ class Square: Shape
         Console.WriteLine("Please, enter square size");
 
         if(int.TryParse(Console.ReadLine(), out int squareWidth))
-            DrawShape(squareWidth, squareWidth);
+            DrawShape(FillNumber(), squareWidth, squareWidth);
     }
 }
