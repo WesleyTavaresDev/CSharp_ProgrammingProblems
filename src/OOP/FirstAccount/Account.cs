@@ -1,0 +1,7 @@
+namespace FirstAccount
+{
+    class Account
+    {
+        
+    }
+}
