@@ -2,7 +2,7 @@ using System;
 
 class Shape
 {
-    public virtual void DrawShape(int width, int height)
+    protected virtual void DrawShape(int width, int height)
     {
         Console.WriteLine("Please enter a number: ");
 

@@ -1,8 +1,10 @@
 class Square: Shape
 {
-    private override void DrawShape()
+    public void DrawSquare()
     {
+        Console.WriteLine("Please, enter square size");
         int squareWidth = int.Parse(Console.ReadLine());
-        base.DrawShape(squareWidth, squareWidth);
+        
+        DrawShape(squareWidth, squareWidth);
     }
 }
