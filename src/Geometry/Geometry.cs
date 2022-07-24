@@ -1,6 +1,6 @@
 namespace Geometry
 {
-    public class Geometry
+ /*   public class Geometry
     {
         static void Main()
         {
@@ -16,5 +16,5 @@ namespace Geometry
             Triangle triangle = new Triangle();
             triangle.DrawTriangle();
         }
-    }
+    }*/
 }
