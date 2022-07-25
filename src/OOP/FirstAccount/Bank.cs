@@ -2,8 +2,10 @@ namespace FirstAccount
 {
     class Bank
     {
-        static void Main()
+        public void GetBankAccount()
         {
+            Console.WriteLine("------ First Account ------");
+            
             Account heikkisAccount = new Account("Heikki's account", 100.00d);
             Account heikkisSwissAccount = new Account("Heikki's account in Switzerland", 1000000.00d);
 

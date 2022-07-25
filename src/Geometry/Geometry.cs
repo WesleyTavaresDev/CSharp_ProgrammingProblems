@@ -1,9 +1,11 @@
 namespace Geometry
 {
- /*   public class Geometry
+    public class Geometry
     {
-        static void Main()
+        public void DrawGeometricShapes()
         {
+            Console.WriteLine("------ Geometry exercise ------");
+
             Console.WriteLine("----- Square -----");
             Square square = new Square();
             square.DrawSquare();
@@ -16,5 +18,5 @@ namespace Geometry
             Triangle triangle = new Triangle();
             triangle.DrawTriangle();
         }
-    }*/
+    }
 }
